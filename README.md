@@ -25,3 +25,6 @@ The demo creates:
 - Avro schemas for the entities
 - PFB files with the serialized data
 - A verification display of the converted data
+
+<img width="929" alt="Screenshot 2025-03-27 at 17 09 50" src="https://github.com/user-attachments/assets/3e24d988-462a-4f1b-85e6-fea5ab17231c" />
+
