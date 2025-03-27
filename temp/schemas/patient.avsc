@@ -1,0 +1,40 @@
+{
+  "namespace": "healthcare",
+  "type": "record",
+  "name": "Patient",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "diagnoses",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "DiagnosisReference",
+          "fields": [
+            {
+              "name": "diagnosis_id",
+              "type": "string"
+            },
+            {
+              "name": "date",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "default": []
+    }
+  ]
+}
